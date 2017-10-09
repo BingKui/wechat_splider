@@ -1,0 +1,32 @@
+{
+  "name": "wechat_splider",
+  "version": "0.0.1",
+  "description": "抓取最新的人工智能微信公众号文章，方便后续自己阅读",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-dev index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BingKui/wechat_splider.git"
+  },
+  "keywords": [
+    "node",
+    "wechat",
+    "MongoDB",
+    "mongolass"
+  ],
+  "author": "康兵奎",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BingKui/wechat_splider/issues"
+  },
+  "homepage": "https://github.com/BingKui/wechat_splider#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.1",
+    "log4js": "^2.3.4",
+    "mongolass": "^3.1.5",
+    "request": "^2.83.0"
+  }
+}
