@@ -1,7 +1,7 @@
 let mongolass = require('../common/mongo');
 
 let ListItem = mongolass.model('listItem', {
-	articleName: {
+	name: {
 		type: 'string'
 	},
 	account: {
